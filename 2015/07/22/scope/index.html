@@ -215,8 +215,7 @@
       
         <span itemprop="articleBody"><p><img src="http://7xkjpz.com1.z0.glb.clouddn.com/雪夜.jpg" alt="雪夜.jpg" title="雪夜.jpg"></p>
 <p><blockquote class="blockquote-center"><br>绿蚁新醅酒，红泥小火炉。 晚来天欲雪，能饮一杯无？<br>白居易@问刘十九<br></blockquote><br><a id="more"></a></p>
-<p>我一直有订阅<a href="http://www.ng-newsletter.com/" target="_blank" rel="external">ng-newsletter</a>，话说6月23号那期，推荐了一篇文章<a href="http://teropa.info/blog/2015/06/09/transclusion.html" target="_blank" rel="external">《A Guide To Transclusion in AngularJS》</a>,当时正好对这个点有所疑问，就点了进去。这的确是篇好文，图文并茂，代码清晰，有理有据让人信服。于是又逛了作者其他文章，发现他还出了一本书：<a href="http://teropa.info/build-your-own-angular" target="_blank" rel="external">《Build Your Own Angular》</a>，看了书的试读以及作者的一些文章，觉得这肯定是本干货满满的书，遂决定购买。但一看价格，$30一算180啊，于是开启团购模式，凑齐7位伙伴，以人均26RMB拿下，童叟无欺大家都说好。这真是一巨著，950来页共5部，至昨天为止，总算看完了第一部：Scope。立下笔记方便自己回顾也方便他人理解。此为初衷。若文章较长，请通过左侧目录进行导航。<br><!--more--></p>
-<p>因为全程所有的功能都是采用TDD驱动的，所以搭建测试环境也在所难免，可以参考我这里的<a href="https://github.com/liekkas/js-test-boilerplate" target="_blank" rel="external">JS测试样板</a>。<br>笔记由书加网文理解后产生，采用问答方式，不定期更新。</p>
+<p>总结AngularJS框架有关Scope的笔记，知识点主要来自印象笔记中散乱摘抄的看书笔记以及工作中碰到的问题，采用问答方式，不定期更新，有误解烦请指正，有新问题欢迎提出。主要做备份，方便自己也利于他人。若文章较长，请通过左侧目录进行导航。</p>
 <h4 id="Q1:Angular中为什么会有三种watch方式?">Q1:Angular中为什么会有三种watch方式?</h4><p>Angular的$digest采用的是脏检测机制，具体来说每次$digest时会对所有的watch进行遍历，通过比较来确认是否发生了变化，这个比较就涉及三种类型的比较：</p>
 <blockquote>
 <ul>
