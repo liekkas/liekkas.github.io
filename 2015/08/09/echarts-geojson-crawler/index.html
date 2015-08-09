@@ -28,7 +28,7 @@
 
 
 
-  <meta name="keywords" content="电影," />
+  <meta name="keywords" content="echarts," />
 
 
 
@@ -37,17 +37,16 @@
   <link rel="shorticon icon" type="image/x-icon" href="/favicon.ico?v=0.4.4" />
 
 
-<meta name="description" content="齐天大圣孙悟空，身如玄铁，火眼金睛，长生不老，还有七十二变。一个筋斗云啊，就是十万八千里。江流儿@大圣归来">
+<meta name="description" content="远看山有色，近听水无声。春去花还在，人来鸟不惊。王维@画">
 <meta property="og:type" content="article">
-<meta property="og:title" content="《大圣归来》">
-<meta property="og:url" content="https://github.com/liekkas/2015/07/20/watched-the-monky-king-back/index.html">
+<meta property="og:title" content="ECharts区县地图数据爬取">
+<meta property="og:url" content="https://github.com/liekkas/2015/08/09/echarts-geojson-crawler/index.html">
 <meta property="og:site_name" content="斜风细雨不须归">
-<meta property="og:description" content="齐天大圣孙悟空，身如玄铁，火眼金睛，长生不老，还有七十二变。一个筋斗云啊，就是十万八千里。江流儿@大圣归来">
-<meta property="og:image" content="https://ooo.0o0.ooo/2015/07/21/55ae40772dcbe.jpg">
-<meta property="og:image" content="https://ooo.0o0.ooo/2015/07/21/55ae462ec0416.jpg">
+<meta property="og:description" content="远看山有色，近听水无声。春去花还在，人来鸟不惊。王维@画">
+<meta property="og:image" content="http://7xkjpz.com1.z0.glb.clouddn.com/鸟1.jpg">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="《大圣归来》">
-<meta name="twitter:description" content="齐天大圣孙悟空，身如玄铁，火眼金睛，长生不老，还有七十二变。一个筋斗云啊，就是十万八千里。江流儿@大圣归来">
+<meta name="twitter:title" content="ECharts区县地图数据爬取">
+<meta name="twitter:description" content="远看山有色，近听水无声。春去花还在，人来鸟不惊。王维@画">
 
 
 <script type="text/javascript" id="hexo.configuration">
@@ -57,7 +56,7 @@
   };
 </script>
 
-    <title> 《大圣归来》 // 斜风细雨不须归 </title>
+    <title> ECharts区县地图数据爬取 // 斜风细雨不须归 </title>
 </head>
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 <!--[if lte IE 8]>
@@ -170,7 +169,7 @@
           
           
             
-              《大圣归来》
+              ECharts区县地图数据爬取
             
           
         </h1>
@@ -179,8 +178,8 @@
       <div class="post-meta">
         <span class="post-time">
           发表于
-          <time itemprop="dateCreated" datetime="2015-07-20T21:28:14+08:00" content="2015-07-20">
-            2015-07-20
+          <time itemprop="dateCreated" datetime="2015-08-09T10:38:45+08:00" content="2015-08-09">
+            2015-08-09
           </time>
         </span>
 
@@ -190,8 +189,8 @@
           
             <span class="post-comments-count">
               &nbsp; | &nbsp;
-              <a href="/2015/07/20/watched-the-monky-king-back/#comments" itemprop="discussionUrl">
-                <span class="post-comments-count ds-thread-count" data-thread-key="2015/07/20/watched-the-monky-king-back/" itemprop="commentsCount"></span>
+              <a href="/2015/08/09/echarts-geojson-crawler/#comments" itemprop="discussionUrl">
+                <span class="post-comments-count ds-thread-count" data-thread-key="2015/08/09/echarts-geojson-crawler/" itemprop="commentsCount"></span>
               </a>
             </span>
           
@@ -205,13 +204,13 @@
       
 
       
-        <span itemprop="articleBody"><p><img src="https://ooo.0o0.ooo/2015/07/21/55ae40772dcbe.jpg" alt="大圣归来.jpg" title="大圣归来.jpg"></p>
-<p><blockquote class="blockquote-center"><br>齐天大圣孙悟空，身如玄铁，火眼金睛，长生不老，还有七十二变。<br>一个筋斗云啊，就是十万八千里。<br>江流儿@大圣归来<br></blockquote><br><a id="more"></a><br>最近被大圣刷屏，于是乘着调休的机会，一人跑到影院观赏了此片。不得不说，西游这个超级IP在中国拥有巨大的粉丝群，不管怎么样的烂片，沾上西游两字也常有不俗的票房，比如<a href="http://movie.douban.com/subject/5317291/" target="_blank" rel="external">《大闹天宫》</a>虽然评分很低但是票房高啊。</p>
-<p>但还是有精品产生的，比如动画版的<a href="http://movie.douban.com/subject/1418019/" target="_blank" rel="external">《大闹天宫》</a>，居然是1961年的，评价却相当的高。至于星爷的大话西游系列更是一代经典。</p>
-<p>此前看过好莱坞的《功夫熊猫》，很是欣赏此类动画，心中也叹惜本国的文化却需要外国来推动.想想中国历史悠久，神话传说丰富，不知能发掘出多少“超人”呢。大圣归来果然没有让我失望，精致的人物，辅以战胜自己的正能量，满满的让人感动啊，就是剧情上还是不够丰富。但瑕不掩瑜。</p>
-<p>好吧，这猴子我承认是最帅的，这反派大王变身前也是各种炫酷。票房也是节节高，期待大圣2到来吧。</p>
-<p>最后再来一发猴子~</p>
-<p><img src="https://ooo.0o0.ooo/2015/07/21/55ae462ec0416.jpg" alt="大圣归来2.jpg" title="大圣归来2.jpg"></p>
+        <span itemprop="articleBody"><p><img src="http://7xkjpz.com1.z0.glb.clouddn.com/鸟1.jpg" alt="bird.jpg" title="bird.jpg"></p>
+<p><blockquote class="blockquote-center"><br>远看山有色，近听水无声。春去花还在，人来鸟不惊。<br>王维@画<br></blockquote><br><a id="more"></a><br>ECharts自身带有的全国地图数据只到省-地市级，从地市往下钻就不行了，好在ECharts支持地图数据扩展，可以自己准备区县数据加载进来，现在的关键就是获取区县数据。</p>
+<p>幸运的是官网提供了一个这样的<a href="http://echarts.baidu.com/doc/example/map20.html" target="_blank" rel="external">例子</a>，咱们要做的就是把例子中所涉及到的区县数据爬取下来。</p>
+<p>右键查看网页源码，看到这些区县数据映射关系出来了，看下面：<br><figure class="highlight erlang"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">...</span><br><span class="line"><span class="string">"石家庄市"</span>: <span class="string">"130100"</span>,</span><br><span class="line"><span class="string">"唐山市"</span>: <span class="string">"130200"</span>,</span><br><span class="line"><span class="string">"秦皇岛市"</span>: <span class="string">"130300"</span>,</span><br><span class="line"><span class="string">"邯郸市"</span>: <span class="string">"130400"</span>,</span><br><span class="line"><span class="string">"邢台市"</span>: <span class="string">"130500"</span>,</span><br><span class="line"><span class="string">"保定市"</span>: <span class="string">"130600"</span>,</span><br><span class="line"><span class="string">"张家口市"</span>: <span class="string">"130700"</span>,</span><br><span class="line"><span class="string">"承德市"</span>: <span class="string">"130800"</span>,</span><br><span class="line"><span class="string">"沧州市"</span>: <span class="string">"130900"</span>,</span><br><span class="line"><span class="string">"廊坊市"</span>: <span class="string">"131000"</span>,</span><br><span class="line"><span class="string">"衡水市"</span>: <span class="string">"131100"</span>,</span><br><span class="line"><span class="string">"太原市"</span>: <span class="string">"140100"</span>,</span><br><span class="line"><span class="string">"大同市"</span>: <span class="string">"140200"</span>,</span><br><span class="line"><span class="string">"阳泉市"</span>: <span class="string">"140300"</span>,</span><br><span class="line">...</span><br></pre></td></tr></table></figure></p>
+<p>通过加载代码可以定位到地图数据的url：<br><figure class="highlight haxe"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//分析出url，比如石家庄市:</span></span><br><span class="line"><span class="comment">//http://echarts.baidu.com/doc/example/geoJson/china-main-city/130100.json</span></span><br><span class="line">$.getJSON(<span class="string">'geoJson/china-main-city/'</span> + geoJsonName + <span class="string">'.json'</span>, <span class="keyword">callback</span>);</span><br></pre></td></tr></table></figure></p>
+<p>这样咱们的爬取就简单了，写个正则匹配地图的数据映射关系，然后下载即可。简单用python爬取，代码如下：<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line">#coding=utf-<span class="number">8</span></span><br><span class="line"></span><br><span class="line">__author__ = <span class="string">'liekkas'</span></span><br><span class="line">###把全国县级地图示例中得json数据爬取下来</span><br><span class="line"></span><br><span class="line">import re</span><br><span class="line">import urllib</span><br><span class="line"></span><br><span class="line">#获取网页内容</span><br><span class="line">def <span class="function"><span class="title">getHtml</span><span class="params">(url)</span></span>:</span><br><span class="line">    page = urllib.<span class="function"><span class="title">urlopen</span><span class="params">(url)</span></span></span><br><span class="line">    <span class="tag">html</span> = page.<span class="function"><span class="title">read</span><span class="params">()</span></span></span><br><span class="line">    return <span class="tag">html</span></span><br><span class="line"></span><br><span class="line">#获取城市和id对</span><br><span class="line">def <span class="function"><span class="title">getRegion</span><span class="params">(html)</span></span>:</span><br><span class="line">    regionPair = re.<span class="function"><span class="title">compile</span><span class="params">(r<span class="string">'"\W*": "\d*"'</span>)</span></span></span><br><span class="line">    regionPairlist = re.<span class="function"><span class="title">findall</span><span class="params">(regionPair,html)</span></span></span><br><span class="line">    <span class="keyword">for</span> rp <span class="keyword">in</span> regionPairlist:</span><br><span class="line">        cn = rp.<span class="function"><span class="title">split</span><span class="params">(<span class="string">":"</span>)</span></span>[<span class="number">0</span>].<span class="function"><span class="title">split</span><span class="params">(<span class="string">'"'</span>)</span></span>[<span class="number">1</span>]</span><br><span class="line">        id = rp.<span class="function"><span class="title">split</span><span class="params">(<span class="string">":"</span>)</span></span>[<span class="number">1</span>].<span class="function"><span class="title">split</span><span class="params">(<span class="string">'"'</span>)</span></span>[<span class="number">1</span>]</span><br><span class="line"></span><br><span class="line">        print <span class="string">"爬取："</span>+cn + <span class="string">" ID为："</span> + id</span><br><span class="line">        #爬取并保存</span><br><span class="line">        urllib.<span class="function"><span class="title">urlretrieve</span><span class="params">(<span class="string">"http://echarts.baidu.com/doc/example/geoJson/china-main-city/"</span>+id+<span class="string">".json"</span>,<span class="string">'src/assets/geoJson/'</span>+id+<span class="string">'.json'</span>)</span></span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="tag">html</span> = <span class="function"><span class="title">getHtml</span><span class="params">(<span class="string">"http://echarts.baidu.com/doc/example/map20.html"</span>)</span></span></span><br><span class="line"><span class="function"><span class="title">getRegion</span><span class="params">(html)</span></span></span><br></pre></td></tr></table></figure></p>
+<p>这份数据其实还不够完美，它里面只有轮廓的经纬度信息没有区县中心的经纬度信息，如果有地图标注需求的话就需要把经纬度都计算出来，有个简单的方法就是根据轮廓经纬度信息累加求平均值，这样标注点都在正中心了。但也有问题，如果区县形状太狭长，比如内蒙古，那么标注点就落在外面了。这时就推荐用<a href="http://ecomfe.github.io/echarts-map-tool/" target="_blank" rel="external">地图在线生成工具</a>，这个可以生成有中心经纬度信息，它是以市政府的位置为中心的，因此不会落在区县之外。</p>
 </span>
       
     </div>
@@ -220,7 +219,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/电影/" rel="tag">#电影</a>
+            <a href="/tags/echarts/" rel="tag">#echarts</a>
           
         </div>
       
@@ -229,11 +228,11 @@
         <div class="post-nav">
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2015/07/22/scope/" rel="prev">Scope回忆录</a>
-            
           </div>
 
           <div class="post-nav-next post-nav-item">
+            
+              <a href="/2015/08/06/http-api-design/" rel="next">HTTP API 设计指南解读</a>
             
           </div>
         </div>
@@ -259,8 +258,8 @@
             
               <div class="comments" id="comments">
                 
-                  <div class="ds-thread" data-thread-key="2015/07/20/watched-the-monky-king-back/"
-                       data-title="《大圣归来》" data-url="https://github.com/liekkas/2015/07/20/watched-the-monky-king-back/">
+                  <div class="ds-thread" data-thread-key="2015/08/09/echarts-geojson-crawler/"
+                       data-title="ECharts区县地图数据爬取" data-url="https://github.com/liekkas/2015/08/09/echarts-geojson-crawler/">
                   </div>
                 
               </div>
