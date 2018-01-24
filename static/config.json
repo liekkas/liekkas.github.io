@@ -1,4 +1,9 @@
 {
-  "poems": 4,
-  "music": "http://7xkjpz.com1.z0.glb.clouddn.com/%E7%BE%BD%E8%82%BF%20-%20%E5%A4%8F%E3%81%AB%E8%8A%B1%E3%81%8B%E3%82%99%E6%95%A3%E3%82%8B.mp3"
+  "poem": {
+    "num": 4
+  },
+  "index": {
+    "bgImg": "http://7xkjpz.com1.z0.glb.clouddn.com/family_first_bg.jpg",
+    "music": "http://7xkjpz.com1.z0.glb.clouddn.com/%E7%BE%BD%E8%82%BF%20-%20%E5%A4%8F%E3%81%AB%E8%8A%B1%E3%81%8B%E3%82%99%E6%95%A3%E3%82%8B.mp3"
+  }
 }
