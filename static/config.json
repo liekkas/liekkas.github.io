@@ -7,5 +7,16 @@
     "bgImgNum": 2,
     "bgImg": "https://blog-1255436783.cos.ap-guangzhou.myqcloud.com/index.jpg",
     "musicNum": 10
+  },
+  "time": {
+    "2018": {
+      "months": [{"m": 1,"n": 6, "titles": ["韶山行", "绿植", "雪中合影", "小伙伴", "树叶结冰", "反弹公园"]}]
+    },
+    "2017": {
+      "months": [{"m": 8,"n": 2}]
+    },
+    "2016": {
+      "months": [{"m": 1,"n": 4},{"m": 12,"n": 10}]
+    }
   }
 }
